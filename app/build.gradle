@@ -6,6 +6,8 @@ android {
 
     defaultConfig {
         // min and target SDK is not set in Gradle to use the version defined in the android manifest
+        versionCode 2
+        versionName "2.0"
     }
 
     buildTypes {

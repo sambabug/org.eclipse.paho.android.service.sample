@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="title_color_item_ac1_room1">#2318ff</color>
+    <color name="label_color_item_ac1_room1_temp1">#167bff</color>
+    <color name="label_color_item_ac1_room1_temp1_data">#80ff0000</color>
+
+    <color name="label_color_item_ac1_room1_status">#167bff</color>
+    <color name="label_color_item_ac1_room1_status_data">#80ff0000</color>
+
+
+    <color name="background_color">#888888</color>
+    <color name="sd_title_text_color">#2318ff</color>
+    <color name="sd_label_text_color">#167bff</color>
+    <color name="sd_values_text_color">#80ff0000</color>
+
+    <color name="title_activity_graphs_text_color">#2318ff</color>
+
+    <color name="opaque_red">#f00</color>
+    <color name="translucent_red">#80ff0000</color>
+
+
+</resources>
