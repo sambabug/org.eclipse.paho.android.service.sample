@@ -126,7 +126,7 @@ public class Listener implements OnMenuItemClickListener {
 
     Connection c = Connections.getInstance(context).getConnection(clientHandle);
     try {
-      c.getClient().connect(c.getConnectionOptions(), null, new ActionListener(context, Action.CONNECT, clientHandle, null));
+      c.getClient().connect(c.getConnectionOptions(), null, new ActionListener(context, Action.CONNECT, clientHandle, (String) null));
     }
     catch (MqttSecurityException e) {
       Log.e(this.getClass().getCanonicalName(), "Failed to reconnect the client with the handle " + clientHandle, e);
@@ -152,7 +152,7 @@ public class Listener implements OnMenuItemClickListener {
     }
 
     try {
-      c.getClient().disconnect(null, new ActionListener(context, Action.DISCONNECT, clientHandle, null));
+      c.getClient().disconnect(null, new ActionListener(context, Action.DISCONNECT, clientHandle, (String)null));
       c.changeConnectionStatus(ConnectionStatus.DISCONNECTING);
     }
     catch (MqttException e) {
